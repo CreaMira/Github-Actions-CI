@@ -7,6 +7,9 @@ class TestCase(unittest.TestCase):
     def test_add(self):
         self.assertEqual(example.add(1, 2), 3)
 
+    def test_sub(self):
+        self.assertEqual(example.sub(6, 5), 1)
+
     def test_mul(self):
         self.assertEqual(example.mul(3, 4), 12)
 
